@@ -16,7 +16,7 @@ export class OpenRouterService {
 
   constructor() {
     this.apiKey = import.meta.env.VITE_OPENROUTER_API_KEY;
-    this.model = import.meta.env.VITE_OPENROUTER_MODEL || 'openai/gpt-4o-mini';
+    i this.model =mport.meta.env.VITE_OPENROUTER_MODEL || 'openai/gpt-oss-120b:free';
     
     if (!this.apiKey) {
       console.warn('OpenRouter API key not found. Please set VITE_OPENROUTER_API_KEY in your environment variables.');
